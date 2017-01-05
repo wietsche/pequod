@@ -1,0 +1,13 @@
+mission: 
+    name: superbalist-5fm
+    signature:
+        file: s3://za.audio/signatures/superbalist_signature.wav
+        score_thresh: 480
+    input:
+        path: 5fm
+        timeadj: 2
+    result:
+        path: superbalist-5fm/csv
+    message:
+        text: "@superbalist #Superbalist advert played on #5fm"
+

@@ -1,0 +1,11 @@
+mission:
+    signature:
+        file:
+        sample_start:
+        sample_ln:
+        score_thresh:
+    result:
+        out_url:
+    message:
+        text:
+        out_url: 

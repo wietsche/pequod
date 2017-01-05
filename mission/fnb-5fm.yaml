@@ -1,0 +1,13 @@
+mission: 
+    name: fnb-5fm
+    signature:
+        file: s3://za.audio/signatures/fnb_signature.wav
+        score_thresh: 420
+    input:
+        path: 5fm   
+        timeadj: 2
+    result:
+        path: fnb-5fm/csv
+    message:
+        text: "#FNB #eBucks xmas advert played on #5fm"
+

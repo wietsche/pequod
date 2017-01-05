@@ -1,0 +1,13 @@
+mission: 
+    name: takealot-5fm
+    signature:
+        file: s3://za.audio/signatures/takealot_signature.wav
+        score_thresh: 300
+    input:
+        path: 5fm
+        timeadj: 2
+    result:
+        path: takealot-5fm/csv
+    message:
+        text: "@takealot #takealot advert played on #5fm"
+

@@ -1,0 +1,12 @@
+mission: 
+    name: cellc-5fm
+    signature:
+        file: s3://za.audio/signatures/cellc_signature.wav
+        score_thresh: 0
+    input:
+        path: 5fm
+    result:
+        path: cellc-5fm/csv
+    message:
+        text: Cellc contract buy-out add spotted
+

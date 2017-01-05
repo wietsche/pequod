@@ -1,0 +1,13 @@
+mission: 
+    name: stbank-5fm
+    signature:
+        file: s3://za.audio/signatures/stbank_signature.wav
+        score_thresh: 390
+    input:
+        path: 5fm
+        timeadj: 2
+    result:
+        path: stbank-5fm/csv
+    message:
+        text: "@standardbank #Standardbank advert played on #5fm"
+

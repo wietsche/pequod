@@ -1,0 +1,13 @@
+mission: 
+    name: ewn-kfm
+    signature:
+        file: s3://za.audio/signatures/ewn_signature.wav
+        score_thresh: 340
+    input:
+        path: kfm   
+        timeadj: 2
+    result:
+        path: ewn-kfm/csv
+    message:
+        text: "#ewn Eyewitness news mentioned on #KFM"
+

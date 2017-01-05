@@ -1,0 +1,13 @@
+mission:
+    name: ewn-kfm
+    signature:
+        file: s3://za.audio/samples/ewn_signature.wav
+        sample_start: 8000
+        sample_ln: 2000
+        score_thresh: 0
+    result:
+        out_url: s3://za.harbour/samples
+    message:
+        text: EWN jingle spotted
+        out_url:  s3://za.harbour/samples
+

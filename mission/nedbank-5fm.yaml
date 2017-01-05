@@ -1,0 +1,13 @@
+mission: 
+    name: nedbank-5fm
+    signature:
+        file: s3://za.audio/signatures/nedbank_signature.wav
+        score_thresh: 265
+    input:
+        path: 5fm
+        timeadj: 2
+    result:
+        path: nedbank-5fm/csv
+    message:
+        text: "@Nedbank #Nedbank advert played on #5fm"
+
